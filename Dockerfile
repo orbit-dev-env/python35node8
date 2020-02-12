@@ -5,4 +5,3 @@ RUN apt-get install -y nodejs
 RUN apt-get install -y vim
 RUN apt-get update -y
 RUN apt-get install nginx -y
-RUN npm install pm2 -g
